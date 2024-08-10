@@ -22,7 +22,7 @@ const FeaturedJobs = () => {
         </p>
       </div>
       <div className="job_container">
-        {jobs.slice.map((job) => (
+        {jobs.map((job) => (
           <Job job={job} key={job.id}></Job>
         ))}
       </div>
